@@ -51,5 +51,11 @@ public class QuantityMeasurementTest {
         }
 
     }
+
+    @Test
+    public void whenGivenInchReference_shouldReturnEqual() {
+        Inch first = new Inch(2.0);
+        Assert.assertTrue(first.equals(first));
+    }
 }
 

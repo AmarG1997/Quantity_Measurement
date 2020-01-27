@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="quantity_measurement.QuantityMeasurementTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-27T12:42:36" hostname="admin1-HP-EliteBook-Folio-9480m" time="0.002">
+<testsuite name="quantity_measurement.QuantityMeasurementTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-27T12:44:33" hostname="admin1-HP-EliteBook-Folio-9480m" time="0.001">
   <properties/>
-  <testcase name="whenGivenNullValueForInch_shouldThrowNullException" classname="quantity_measurement.QuantityMeasurementTest" time="0.002"/>
+  <testcase name="whenGivenInchReference_shouldReturnEqual" classname="quantity_measurement.QuantityMeasurementTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
