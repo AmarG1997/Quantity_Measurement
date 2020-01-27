@@ -3,20 +3,20 @@ package quantity_measurement;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class QuantityMeasurementTest {
+public class LengthMeasurementTest {
 
     @Test
     public void whenGivenZeroFeetOrZeroFeet_ShouldReturnEquals() {
-        Feet first = new Feet(0.0);
-        Feet second = new Feet(0.0);
+        LengthMeasurement first = new LengthMeasurement(0.0);
+        LengthMeasurement second = new LengthMeasurement(0.0);
         Assert.assertEquals(first,second);
     }
 
     @Test
     public void whenGivenNullValue_shouldThrowNullException() throws QuantityMeasurementException {
         try {
-            Feet first = new Feet(null);
-            Feet second = new Feet(null);
+            LengthMeasurement first = new LengthMeasurement(null);
+            LengthMeasurement second = new LengthMeasurement(null);
             Assert.assertEquals(first,second);
         }catch (NullPointerException e){
             throw new QuantityMeasurementException("Null pointer Exception",
@@ -27,14 +27,14 @@ public class QuantityMeasurementTest {
 
     @Test
     public void whenGivenReference_shouldReturnEqual() {
-        Feet first = new Feet(2.0);
+        LengthMeasurement first = new LengthMeasurement(2.0);
         Assert.assertTrue(first.equals(first));
     }
 
     @Test
     public void whenGivenTypeCheckForFeet_ShouldReturnEquals() {
-        Feet first = new Feet(0.0);
-        Feet second = new Feet(0.0);
+        LengthMeasurement first = new LengthMeasurement(0.0);
+        LengthMeasurement second = new LengthMeasurement(0.0);
         Assert.assertTrue(first.getClass().equals(second.getClass()));
     }
 
@@ -42,17 +42,16 @@ public class QuantityMeasurementTest {
 
     @Test
     public void whenGivenZeroInchOrZeroInch_ShouldReturnEquals() {
-        Inch first = new Inch(0.0);
-        Inch second = new Inch(0.0);
-        Assert.assertEquals(first,second);
+        LengthMeasurement first = new LengthMeasurement(0.0);
+        LengthMeasurement second = new LengthMeasurement(0.0);
         Assert.assertTrue(first.getClass().equals(second.getClass()));
     }
 
     @Test
     public void whenGivenNullValueForInch_shouldThrowNullException() throws QuantityMeasurementException {
         try {
-            Inch first = new Inch(null);
-            Inch second = new Inch(null);
+            LengthMeasurement first = new LengthMeasurement(null);
+            LengthMeasurement second = new LengthMeasurement(null);
             Assert.assertEquals(first,second);
         }catch (NullPointerException e){
             throw new QuantityMeasurementException("Null pointer Exception",
@@ -63,15 +62,16 @@ public class QuantityMeasurementTest {
 
     @Test
     public void whenGivenInchReference_shouldReturnEqual() {
-        Inch first = new Inch(2.0);
+        LengthMeasurement first = new LengthMeasurement(2.0);
         Assert.assertTrue(first.equals(first));
     }
 
     @Test
     public void whenGivenTypeCheckForInch_ShouldReturnEquals() {
-        Inch first = new Inch(0.0);
-        Inch second = new Inch(0.0);
+        LengthMeasurement first = new LengthMeasurement(0.0);
+        LengthMeasurement second = new LengthMeasurement(0.0);
         Assert.assertTrue(first.getClass().equals(second.getClass()));
     }
+
 }
 

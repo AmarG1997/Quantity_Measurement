@@ -2,7 +2,7 @@ package quantity_measurement;
 
 import java.util.Objects;
 
-public class QuantityMeasurement {
+public class LengthMeasurement {
 
     private Units units;
 
@@ -10,22 +10,23 @@ public class QuantityMeasurement {
 
     public Double value;
 
-    public QuantityMeasurement(Double value) {
+    public LengthMeasurement(Double value) {
         this.value = value;
     }
+
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof QuantityMeasurement)) return false;
-        QuantityMeasurement that = (QuantityMeasurement) o;
+        if (!(o instanceof LengthMeasurement)) return false;
+        LengthMeasurement that = (LengthMeasurement) o;
         return units == that.units &&
-                Objects.equals(value, that.value);
+                Objects.equals(units, that.units);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(units, value);
+        return Objects.hash(units, units);
     }
 }
 
