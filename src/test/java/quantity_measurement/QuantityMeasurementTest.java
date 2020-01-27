@@ -12,5 +12,17 @@ public class QuantityMeasurementTest {
         Assert.assertEquals(first,second);
     }
 
+    @Test
+    public void whenGivenNullValue_shouldThrowNullException() throws QuantityMeasurementException {
+        try {
+            Feet first = new Feet(null);
+            Feet second = new Feet(null);
+            Assert.assertEquals(first,second);
+        }catch (NullPointerException e){
+            throw new QuantityMeasurementException("Null pointer Exception",
+                    QuantityMeasurementException.ExceptionType.NULL_POINTER_EXCEPTION);
+        }
+
+    }
 }
 
