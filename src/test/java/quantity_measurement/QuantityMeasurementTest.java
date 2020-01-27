@@ -38,5 +38,18 @@ public class QuantityMeasurementTest {
         Inch second = new Inch(0.0);
         Assert.assertEquals(first,second);
     }
+
+    @Test
+    public void whenGivenNullValueForInch_shouldThrowNullException() throws QuantityMeasurementException {
+        try {
+            Inch first = new Inch(null);
+            Inch second = new Inch(null);
+            Assert.assertEquals(first,second);
+        }catch (NullPointerException e){
+            throw new QuantityMeasurementException("Null pointer Exception",
+                    QuantityMeasurementException.ExceptionType.NULL_POINTER_EXCEPTION);
+        }
+
+    }
 }
 
