@@ -6,7 +6,7 @@ import org.junit.Test;
 public class QuantityMeasurementTest {
 
     @Test
-    public void whenGivenZeroFeetOrZeroFeet1_ShouldReturnEquals() {
+    public void whenGivenZeroFeetOrZeroFeet_ShouldReturnEquals() {
         Feet first = new Feet(0.0);
         Feet second = new Feet(0.0);
         Assert.assertEquals(first,second);
@@ -29,7 +29,14 @@ public class QuantityMeasurementTest {
     public void whenGivenReference_shouldReturnEqual() {
         Feet first = new Feet(2.0);
         Assert.assertTrue(first.equals(first));
+    }
 
+
+    @Test
+    public void whenGivenZeroInchOrZeroInch_ShouldReturnEquals() {
+        Inch first = new Inch(0.0);
+        Inch second = new Inch(0.0);
+        Assert.assertEquals(first,second);
     }
 }
 
