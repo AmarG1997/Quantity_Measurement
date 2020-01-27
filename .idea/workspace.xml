@@ -41,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/quantity_measurement/QuantityMeasurementTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+            <state relative-caret-position="269">
+              <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -192,13 +192,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.QuantityMeasurementTest.whenGivenZeroFeetOrZeroFeet1_ShouldReturnEquals">
-    <configuration name="QuantityMeasurementTest.WhenGivenNullValue_ShouldThrowNullPointerexception" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.QuantityMeasurementTest.whenGivenReference_shouldReturnEqual">
+    <configuration name="QuantityMeasurementTest.whenGivenNullValue_shouldThrowNullException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;quantity_measurement.QuantityMeasurementTest.WhenGivenNullValue_ShouldThrowNullPointerexception&quot;" />
+        <option name="scriptParameters" value="--tests &quot;quantity_measurement.QuantityMeasurementTest.whenGivenNullValue_shouldThrowNullException&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -213,12 +213,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QuantityMeasurementTest.whenGivenOneNullValue_ShouldThrowNullPointerexception" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QuantityMeasurementTest.whenGivenReference_shouldReturnEqual" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;quantity_measurement.QuantityMeasurementTest.whenGivenOneNullValue_ShouldThrowNullPointerexception&quot;" />
+        <option name="scriptParameters" value="--tests &quot;quantity_measurement.QuantityMeasurementTest.whenGivenReference_shouldReturnEqual&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -295,11 +295,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.QuantityMeasurementTest.whenGivenReference_shouldReturnEqual" />
+        <item itemvalue="Gradle.QuantityMeasurementTest.whenGivenNullValue_shouldThrowNullException" />
         <item itemvalue="Gradle.QuantityMeasurementTest.whenGivenZeroFeetOrZeroFeet1_ShouldReturnEquals" />
         <item itemvalue="Gradle.QuantityMeasurementTest.whenGivenZeroFeetOrZeroFeet_ShouldReturnEquals" />
         <item itemvalue="Gradle.QuantityMeasurementTest.whenGivenValue_shouldReturnCorrrectReference" />
-        <item itemvalue="Gradle.QuantityMeasurementTest.whenGivenOneNullValue_ShouldThrowNullPointerexception" />
-        <item itemvalue="Gradle.QuantityMeasurementTest.WhenGivenNullValue_ShouldThrowNullPointerexception" />
       </list>
     </recent_temporary>
   </component>
@@ -317,9 +317,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QuantityMeasurementTest_WhenGivenNullValue_ShouldThrowNullPointerexception - 2020.01.27 at 14h 37m 36s.xml">
-      <configuration name="QuantityMeasurementTest.WhenGivenNullValue_ShouldThrowNullPointerexception" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="QuantityMeasurementTest_WhenGivenNullValue_ShouldThrowNullPointerexception - 2020.01.27 at 14h 41m 30s.xml">
       <configuration name="QuantityMeasurementTest.WhenGivenNullValue_ShouldThrowNullPointerexception" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -347,6 +344,9 @@
     <history-entry file="QuantityMeasurementTest_whenGivenZeroFeetOrZeroFeet1_ShouldReturnEquals - 2020.01.27 at 17h 26m 31s.xml">
       <configuration name="QuantityMeasurementTest.whenGivenZeroFeetOrZeroFeet1_ShouldReturnEquals" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="QuantityMeasurementTest_whenGivenNullValue_shouldThrowNullException - 2020.01.27 at 17h 45m 58s.xml">
+      <configuration name="QuantityMeasurementTest.whenGivenNullValue_shouldThrowNullException" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
@@ -362,7 +362,7 @@
       <window_info id="Favorites" order="7" sideWeight="0.50121063" side_tool="true" weight="0.24980047" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38961038" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38925081" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -433,8 +433,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/quantity_measurement/QuantityMeasurementTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        <state relative-caret-position="269">
+          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

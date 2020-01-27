@@ -24,5 +24,12 @@ public class QuantityMeasurementTest {
         }
 
     }
+
+    @Test
+    public void whenGivenReference_shouldReturnEqual() {
+        Feet first = new Feet(2.0);
+        Assert.assertTrue(first.equals(first));
+
+    }
 }
 
