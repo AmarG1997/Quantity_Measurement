@@ -31,12 +31,19 @@ public class QuantityMeasurementTest {
         Assert.assertTrue(first.equals(first));
     }
 
+    @Test
+    public void whenGivenTypeCheck_ShouldReturnEquals() {
+        Feet first = new Feet(0.0);
+        Feet second = new Feet(0.0);
+        Assert.assertTrue(first.getClass().equals(second.getClass()));
+    }
 
     @Test
     public void whenGivenZeroInchOrZeroInch_ShouldReturnEquals() {
         Inch first = new Inch(0.0);
         Inch second = new Inch(0.0);
         Assert.assertEquals(first,second);
+        Assert.assertTrue(first.getClass().equals(second.getClass()));
     }
 
     @Test
@@ -57,5 +64,7 @@ public class QuantityMeasurementTest {
         Inch first = new Inch(2.0);
         Assert.assertTrue(first.equals(first));
     }
+
+
 }
 
