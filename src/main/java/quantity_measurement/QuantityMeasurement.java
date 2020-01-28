@@ -13,7 +13,7 @@ public class QuantityMeasurement {
     public QuantityMeasurement() {
     }
 
-    public enum Units{FEET,INCH,FEET_TO_YARD,INCH_TO_YARD,YARD_TO_INCH}
+    public enum Units{FEET,INCH,FEET_TO_YARD,INCH_TO_YARD,YARD_TO_INCH,YARD_TO_FEET}
 
     public double getConversion(Double value, Units units){
         UnitConversion unitConversion = new UnitConversion();

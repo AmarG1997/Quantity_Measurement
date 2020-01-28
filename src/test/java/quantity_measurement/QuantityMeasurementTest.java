@@ -148,6 +148,12 @@ public class QuantityMeasurementTest {
         Assert.assertEquals(1.0,val,0);
     }
 
+    @Test
+    public void whenGivenOneYard_shouldReturnThreeFeet() {
+        QuantityMeasurement lengthMeasurement = new QuantityMeasurement();
+        double val = lengthMeasurement.getConversion(1.0, QuantityMeasurement.Units.YARD_TO_FEET);
+        Assert.assertEquals(3,val,0);
+    }
 
 }
 

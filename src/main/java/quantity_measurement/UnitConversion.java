@@ -19,6 +19,9 @@ public class UnitConversion {
         if (units.equals(QuantityMeasurement.Units.YARD_TO_INCH)){
             value=value*36;
         }
+        if (units.equals(QuantityMeasurement.Units.YARD_TO_FEET)){
+            value=value*3;
+        }
         return value;
     }
 }
