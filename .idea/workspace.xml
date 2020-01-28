@@ -2,31 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5970b1a0-7258-499f-addd-a26580738dca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/quantity_measurement/Feet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/quantity_measurement/Inch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/quantity_measurement/LengthMeasurement.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/quantity_measurement/LengthMeasurement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/quantity_measurement/LengthMeasurementTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/quantity_measurement/LengthMeasurementTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/quantity_measurement.LengthMeasurementTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/quantity_measurement.LengthMeasurementTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/quantity_measurement.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/quantity_measurement.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-quantity_measurement.LengthMeasurementTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-quantity_measurement.LengthMeasurementTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quantity_measurement/Feet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quantity_measurement/Inch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quantity_measurement/LengthMeasurement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quantity_measurement/LengthMeasurement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/quantity_measurement/LengthMeasurementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/quantity_measurement/LengthMeasurementTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -66,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/quantity_measurement/LengthMeasurementTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+            <state relative-caret-position="224">
+              <caret line="103" selection-start-line="103" selection-end-line="103" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -216,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.LengthMeasurementTest">
+  <component name="RunManager" selected="Gradle.LengthMeasurementTest.whenGivenOneInchAndOneFeet_shouldReturnNotEquals">
     <configuration name="LengthMeasurementTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -319,11 +294,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LengthMeasurementTest.whenGivenOneInchAndOneFeet_shouldReturnNotEquals" />
         <item itemvalue="Gradle.LengthMeasurementTest" />
         <item itemvalue="Gradle.LengthMeasurementTest.whenGivenFeetAndInch_shouldReturnNotEquals" />
         <item itemvalue="Gradle.LengthMeasurementTest.whenGivenOneFeetAndOneInch_shouldReturnNotEquals" />
         <item itemvalue="Gradle.LengthMeasurementTest.WhenGivenFeetAndInch_shouldReturnEquals" />
-        <item itemvalue="Gradle.LengthMeasurementTest.whenGivenOneInchAndOneFeet_shouldReturnNotEquals" />
       </list>
     </recent_temporary>
   </component>
@@ -341,9 +316,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LengthMeasurementTest_WhenGivenFeetAndInch_shouldReturnEquals - 2020.01.28 at 12h 22m 51s.xml">
-      <configuration name="LengthMeasurementTest.WhenGivenFeetAndInch_shouldReturnEquals" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="LengthMeasurementTest_whenGivenFeetAndInch_shouldReturnNotEquals - 2020.01.28 at 12h 27m 25s.xml">
       <configuration name="LengthMeasurementTest.whenGivenFeetAndInch_shouldReturnNotEquals" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -371,28 +343,30 @@
     <history-entry file="LengthMeasurementTest - 2020.01.28 at 12h 31m 09s.xml">
       <configuration name="LengthMeasurementTest" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="LengthMeasurementTest_whenGivenOneInchAndOneFeet_shouldReturnNotEquals - 2020.01.28 at 12h 34m 58s.xml">
+      <configuration name="LengthMeasurementTest.whenGivenOneInchAndOneFeet_shouldReturnNotEquals" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4974227" visible="true" weight="0.25778133" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49635038" visible="true" weight="0.25778133" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" />
-      <window_info id="Favorites" order="7" sideWeight="0.5025773" side_tool="true" visible="true" weight="0.25778133" />
+      <window_info id="Favorites" order="7" sideWeight="0.50364965" side_tool="true" visible="true" weight="0.25778133" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36807817" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36807817" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5635179" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3306189" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3306189" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Build" order="10" visible="true" weight="0.32954547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -484,8 +458,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/quantity_measurement/LengthMeasurementTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+        <state relative-caret-position="224">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -101,6 +101,14 @@ public class LengthMeasurementTest {
         System.out.println(first+"  "+second);
         Assert.assertTrue(first!=second);
     }
+
+    @Test
+    public void WhenGivenFeetAndInch_shouldReturnEquals() {
+        LengthMeasurement lengthMeasurement = new LengthMeasurement();
+        double second = lengthMeasurement.getConversion(1.0, LengthMeasurement.Units.FEET);
+        System.out.println(second);
+        Assert.assertEquals(12,second,0);
+    }
 }
 
 
