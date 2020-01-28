@@ -2,18 +2,18 @@ package quantity_measurement;
 
 import java.util.Objects;
 
-public class LengthMeasurement {
+public class QuantityMeasurement {
 
     public Units units;
 
-    public LengthMeasurement(Double v, Units feet) {
+    public QuantityMeasurement(Double value, Units feet) {
 
     }
 
-    public LengthMeasurement() {
+    public QuantityMeasurement() {
     }
 
-    public enum Units{FEET,INCH,FEET_TO_YARD,INCH_TO_YARD}
+    public enum Units{FEET,INCH,FEET_TO_YARD,INCH_TO_YARD,YARD_TO_INCH}
 
     public double getConversion(Double value, Units units){
         UnitConversion unitConversion = new UnitConversion();
@@ -24,8 +24,8 @@ public class LengthMeasurement {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof LengthMeasurement)) return false;
-        LengthMeasurement that = (LengthMeasurement) o;
+        if (!(o instanceof QuantityMeasurement)) return false;
+        QuantityMeasurement that = (QuantityMeasurement) o;
         return units == that.units &&
                 Objects.equals(units, that.units);
     }
