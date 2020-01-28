@@ -117,6 +117,13 @@ public class LengthMeasurementTest {
         System.out.println(first);
         Assert.assertEquals(1.0,first,0);
     }
+
+    @Test
+    public void whenGivenThreeFeet_shouldReturnOneYard() {
+        LengthMeasurement lengthMeasurement=new LengthMeasurement();
+        double first=lengthMeasurement.getConversion(3.0, LengthMeasurement.Units.FEET_TO_YARD);
+        Assert.assertEquals(1.0,first,0);
+    }
 }
 
 
