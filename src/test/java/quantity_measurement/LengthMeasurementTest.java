@@ -92,6 +92,15 @@ public class LengthMeasurementTest {
         System.out.println(first +"  "+second);
         Assert.assertTrue(first!=second);
     }
+
+    @Test
+    public void whenGivenOneInchAndOneFeet_shouldReturnNotEquals() {
+        LengthMeasurement lengthMeasurement=new LengthMeasurement();
+        double first=lengthMeasurement.getConversion(1.0, LengthMeasurement.Units.INCH);
+        double second=lengthMeasurement.getConversion(1.0, LengthMeasurement.Units.FEET);
+        System.out.println(first+"  "+second);
+        Assert.assertTrue(first!=second);
+    }
 }
 
 
