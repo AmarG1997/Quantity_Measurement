@@ -132,6 +132,14 @@ public class LengthMeasurementTest {
         double second = lengthMeasurement.getConversion(3.0, LengthMeasurement.Units.FEET_TO_YARD);
         Assert.assertTrue(first != second);
     }
+
+    @Test
+    public void whenGivenOneInchAndOneYard_shouldReturnNotEquals() {
+        LengthMeasurement lengthMeasurement = new LengthMeasurement();
+        double first = lengthMeasurement.getConversion(1.0, LengthMeasurement.Units.INCH_TO_YARD);
+        double second = lengthMeasurement.getConversion(36.0, LengthMeasurement.Units.INCH_TO_YARD);
+        Assert.assertTrue(first != second);
+    }
 }
 
 

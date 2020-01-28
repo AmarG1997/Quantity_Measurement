@@ -6,7 +6,7 @@ public class LengthMeasurement {
 
     private Units units;
 
-    public enum Units{FEET,INCH,FEET_TO_YARD}
+    public enum Units{FEET,INCH,FEET_TO_YARD,INCH_TO_YARD}
 
     public Double value;
 
@@ -27,6 +27,9 @@ public class LengthMeasurement {
         }
         if (units.equals(Units.FEET_TO_YARD)){
             value=value/3;
+        }
+        if(units.equals(Units.INCH_TO_YARD)){
+            value=value/36;
         }
         return value;
     }
