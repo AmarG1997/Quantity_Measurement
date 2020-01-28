@@ -124,6 +124,14 @@ public class LengthMeasurementTest {
         double first=lengthMeasurement.getConversion(3.0, LengthMeasurement.Units.FEET_TO_YARD);
         Assert.assertEquals(1.0,first,0);
     }
+
+    @Test
+    public void whenGivenOneFeetAndOneYard_shouldReturnNotequals() {
+        LengthMeasurement lengthMeasurement = new LengthMeasurement();
+        double first = lengthMeasurement.getConversion(1.0, LengthMeasurement.Units.FEET_TO_YARD);
+        double second = lengthMeasurement.getConversion(3.0, LengthMeasurement.Units.FEET_TO_YARD);
+        Assert.assertTrue(first != second);
+    }
 }
 
 
