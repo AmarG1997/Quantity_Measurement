@@ -109,6 +109,14 @@ public class LengthMeasurementTest {
         System.out.println(second);
         Assert.assertEquals(12,second,0);
     }
+
+    @Test
+    public void WhenGivenFeetAndInches_shouldReturnEquals() {
+        LengthMeasurement lengthMeasurement=new LengthMeasurement();
+        double first=lengthMeasurement.getConversion(12.0, LengthMeasurement.Units.INCH);
+        System.out.println(first);
+        Assert.assertEquals(1.0,first,0);
+    }
 }
 
 
