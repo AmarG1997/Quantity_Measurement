@@ -76,12 +76,21 @@ public class LengthMeasurementTest {
 //Test case for feet and inch
 
     @Test
-    public void whenGivenOneFeetAndOneInch_shouldReturnNotEquals() {
+    public void whenGivenOneFeetAndOneInch_shouldReturnEquals() {
         LengthMeasurement lengthMeasurement = new LengthMeasurement();
         double first = lengthMeasurement.getConversion(0.0, LengthMeasurement.Units.INCH);
         double second = lengthMeasurement.getConversion(0.0, LengthMeasurement.Units.FEET);
         System.out.println(first +"  "+second);
         Assert.assertTrue(first==second);
+    }
+
+    @Test
+    public void whenGivenOneFeetAndOneInch_shouldReturnNotEquals() {
+        LengthMeasurement lengthMeasurement = new LengthMeasurement();
+        double first = lengthMeasurement.getConversion(1.0, LengthMeasurement.Units.INCH);
+        double second = lengthMeasurement.getConversion(1.0, LengthMeasurement.Units.FEET);
+        System.out.println(first +"  "+second);
+        Assert.assertTrue(first!=second);
     }
 }
 
