@@ -10,10 +10,23 @@ public class LengthMeasurement {
 
     public Double value;
 
-    public LengthMeasurement(Double value) {
+    public LengthMeasurement(Double value,Units units) {
+        this.units=units;
         this.value = value;
     }
 
+    public LengthMeasurement() {
+    }
+
+    public double getConversion(Double value, Units units){
+        if (units.equals(Units.FEET)){
+             value=value*12;
+        }
+        if (units.equals(Units.INCH)){
+            value=value/12;
+        }
+        return value;
+    }
 
     @Override
     public boolean equals(Object o) {
@@ -26,6 +39,7 @@ public class LengthMeasurement {
 
     @Override
     public int hashCode() {
+
         return Objects.hash(units, units);
     }
 }

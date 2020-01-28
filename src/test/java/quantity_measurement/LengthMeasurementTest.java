@@ -7,16 +7,16 @@ public class LengthMeasurementTest {
 
     @Test
     public void whenGivenZeroFeetOrZeroFeet_ShouldReturnEquals() {
-        LengthMeasurement first = new LengthMeasurement(0.0);
-        LengthMeasurement second = new LengthMeasurement(0.0);
+        LengthMeasurement first = new LengthMeasurement(0.0,LengthMeasurement.Units.FEET);
+        LengthMeasurement second = new LengthMeasurement(0.0,LengthMeasurement.Units.FEET);
         Assert.assertEquals(first,second);
     }
 
     @Test
     public void whenGivenNullValue_shouldThrowNullException() throws QuantityMeasurementException {
         try {
-            LengthMeasurement first = new LengthMeasurement(null);
-            LengthMeasurement second = new LengthMeasurement(null);
+            LengthMeasurement first = new LengthMeasurement(null,LengthMeasurement.Units.FEET);
+            LengthMeasurement second = new LengthMeasurement(null,LengthMeasurement.Units.FEET);
             Assert.assertEquals(first,second);
         }catch (NullPointerException e){
             throw new QuantityMeasurementException("Null pointer Exception",
@@ -27,14 +27,14 @@ public class LengthMeasurementTest {
 
     @Test
     public void whenGivenReference_shouldReturnEqual() {
-        LengthMeasurement first = new LengthMeasurement(2.0);
+        LengthMeasurement first = new LengthMeasurement(2.0,LengthMeasurement.Units.FEET);
         Assert.assertTrue(first.equals(first));
     }
 
     @Test
     public void whenGivenTypeCheckForFeet_ShouldReturnEquals() {
-        LengthMeasurement first = new LengthMeasurement(0.0);
-        LengthMeasurement second = new LengthMeasurement(0.0);
+        LengthMeasurement first = new LengthMeasurement(0.0,LengthMeasurement.Units.FEET);
+        LengthMeasurement second = new LengthMeasurement(0.0,LengthMeasurement.Units.FEET);
         Assert.assertTrue(first.getClass().equals(second.getClass()));
     }
 
@@ -42,16 +42,16 @@ public class LengthMeasurementTest {
 
     @Test
     public void whenGivenZeroInchOrZeroInch_ShouldReturnEquals() {
-        LengthMeasurement first = new LengthMeasurement(0.0);
-        LengthMeasurement second = new LengthMeasurement(0.0);
+        LengthMeasurement first = new LengthMeasurement(0.0,LengthMeasurement.Units.INCH);
+        LengthMeasurement second = new LengthMeasurement(0.0,LengthMeasurement.Units.INCH);
         Assert.assertTrue(first.getClass().equals(second.getClass()));
     }
 
     @Test
     public void whenGivenNullValueForInch_shouldThrowNullException() throws QuantityMeasurementException {
         try {
-            LengthMeasurement first = new LengthMeasurement(null);
-            LengthMeasurement second = new LengthMeasurement(null);
+            LengthMeasurement first = new LengthMeasurement(null,LengthMeasurement.Units.INCH);
+            LengthMeasurement second = new LengthMeasurement(null,LengthMeasurement.Units.INCH);
             Assert.assertEquals(first,second);
         }catch (NullPointerException e){
             throw new QuantityMeasurementException("Null pointer Exception",
@@ -62,16 +62,27 @@ public class LengthMeasurementTest {
 
     @Test
     public void whenGivenInchReference_shouldReturnEqual() {
-        LengthMeasurement first = new LengthMeasurement(2.0);
+        LengthMeasurement first = new LengthMeasurement(2.0,LengthMeasurement.Units.INCH);
         Assert.assertTrue(first.equals(first));
     }
 
     @Test
     public void whenGivenTypeCheckForInch_ShouldReturnEquals() {
-        LengthMeasurement first = new LengthMeasurement(0.0);
-        LengthMeasurement second = new LengthMeasurement(0.0);
+        LengthMeasurement first = new LengthMeasurement(0.0, LengthMeasurement.Units.INCH);
+        LengthMeasurement second = new LengthMeasurement(0.0,LengthMeasurement.Units.INCH);
         Assert.assertTrue(first.getClass().equals(second.getClass()));
     }
 
+//Test case for feet and inch
+
+    @Test
+    public void whenGivenOneFeetAndOneInch_shouldReturnNotEquals() {
+        LengthMeasurement lengthMeasurement = new LengthMeasurement();
+        double first = lengthMeasurement.getConversion(0.0, LengthMeasurement.Units.INCH);
+        double second = lengthMeasurement.getConversion(0.0, LengthMeasurement.Units.FEET);
+        System.out.println(first +"  "+second);
+        Assert.assertTrue(first==second);
+    }
 }
+
 
