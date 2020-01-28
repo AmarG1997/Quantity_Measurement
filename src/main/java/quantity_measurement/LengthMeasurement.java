@@ -4,34 +4,21 @@ import java.util.Objects;
 
 public class LengthMeasurement {
 
-    private Units units;
+    public Units units;
 
-    public enum Units{FEET,INCH,FEET_TO_YARD,INCH_TO_YARD}
+    public LengthMeasurement(Double v, Units feet) {
 
-    public Double value;
-
-    public LengthMeasurement(Double value,Units units) {
-        this.units=units;
-        this.value = value;
     }
 
     public LengthMeasurement() {
     }
 
+    public enum Units{FEET,INCH,FEET_TO_YARD,INCH_TO_YARD}
+
     public double getConversion(Double value, Units units){
-        if (units.equals(Units.FEET)){
-             value=value*12;
-        }
-        if (units.equals(Units.INCH)){
-            value=value/12;
-        }
-        if (units.equals(Units.FEET_TO_YARD)){
-            value=value/3;
-        }
-        if(units.equals(Units.INCH_TO_YARD)){
-            value=value/36;
-        }
-        return value;
+        UnitConversion unitConversion = new UnitConversion();
+        double conversion = unitConversion.getConversion(value, units);
+        return conversion;
     }
 
     @Override

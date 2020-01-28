@@ -22,7 +22,6 @@ public class LengthMeasurementTest {
             throw new QuantityMeasurementException("Null pointer Exception",
                     QuantityMeasurementException.ExceptionType.NULL_POINTER_EXCEPTION);
         }
-
     }
 
     @Test
@@ -57,7 +56,6 @@ public class LengthMeasurementTest {
             throw new QuantityMeasurementException("Null pointer Exception",
                     QuantityMeasurementException.ExceptionType.NULL_POINTER_EXCEPTION);
         }
-
     }
 
     @Test
@@ -80,7 +78,6 @@ public class LengthMeasurementTest {
         LengthMeasurement lengthMeasurement = new LengthMeasurement();
         double first = lengthMeasurement.getConversion(0.0, LengthMeasurement.Units.INCH);
         double second = lengthMeasurement.getConversion(0.0, LengthMeasurement.Units.FEET);
-        System.out.println(first +"  "+second);
         Assert.assertTrue(first==second);
     }
 
@@ -89,7 +86,6 @@ public class LengthMeasurementTest {
         LengthMeasurement lengthMeasurement = new LengthMeasurement();
         double first = lengthMeasurement.getConversion(1.0, LengthMeasurement.Units.INCH);
         double second = lengthMeasurement.getConversion(1.0, LengthMeasurement.Units.FEET);
-        System.out.println(first +"  "+second);
         Assert.assertTrue(first!=second);
     }
 
@@ -98,7 +94,6 @@ public class LengthMeasurementTest {
         LengthMeasurement lengthMeasurement=new LengthMeasurement();
         double first=lengthMeasurement.getConversion(1.0, LengthMeasurement.Units.INCH);
         double second=lengthMeasurement.getConversion(1.0, LengthMeasurement.Units.FEET);
-        System.out.println(first+"  "+second);
         Assert.assertTrue(first!=second);
     }
 
@@ -106,7 +101,6 @@ public class LengthMeasurementTest {
     public void WhenGivenFeetAndInch_shouldReturnEquals() {
         LengthMeasurement lengthMeasurement = new LengthMeasurement();
         double second = lengthMeasurement.getConversion(1.0, LengthMeasurement.Units.FEET);
-        System.out.println(second);
         Assert.assertEquals(12,second,0);
     }
 
@@ -114,7 +108,6 @@ public class LengthMeasurementTest {
     public void WhenGivenFeetAndInches_shouldReturnEquals() {
         LengthMeasurement lengthMeasurement=new LengthMeasurement();
         double first=lengthMeasurement.getConversion(12.0, LengthMeasurement.Units.INCH);
-        System.out.println(first);
         Assert.assertEquals(1.0,first,0);
     }
 
