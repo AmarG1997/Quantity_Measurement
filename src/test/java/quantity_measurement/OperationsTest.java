@@ -49,4 +49,14 @@ public class OperationsTest {
         double result = lengthMeasurement.getAddition(inchValue, inchValue1);
         Assert.assertEquals(3.0, result, 0);
     }
+
+    @Test
+    public void whenGivenGallonAndLitres_shouldReturnLitres() {
+        QuantityMeasurement lengthMeasurement = new QuantityMeasurement();
+        double value = UnitType.GALLON.getInchValue(1.0);
+        double value1 = UnitType.LITRES.getInchValue(3.785);
+        double result= lengthMeasurement.getAddition(value, value1);
+        double litreResult = lengthMeasurement.getConversion(result, QuantityMeasurement.Units.LITRE);
+        Assert.assertEquals(7.57,litreResult,0);
+    }
 }
