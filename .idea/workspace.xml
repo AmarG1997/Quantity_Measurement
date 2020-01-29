@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/test/java/quantity_measurement/QuantityMeasurementTest.java" line="125" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="5970b1a0-7258-499f-addd-a26580738dca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/quantity_measurement/UnitType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/quantity_measurement/QuantityMeasurement$Units.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/quantity_measurement/QuantityMeasurement$Units.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/quantity_measurement/QuantityMeasurement.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/quantity_measurement/QuantityMeasurement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/quantity_measurement/UnitConversion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/quantity_measurement/UnitConversion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/quantity_measurement/QuantityMeasurementTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/quantity_measurement/QuantityMeasurementTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/quantity_measurement.QuantityMeasurementTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/quantity_measurement.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-quantity_measurement.QuantityMeasurementTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/quantity_measurement/QuantityMeasurement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quantity_measurement/QuantityMeasurement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/quantity_measurement/UnitConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quantity_measurement/UnitConversion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/quantity_measurement/QuantityMeasurementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/quantity_measurement/QuantityMeasurementTest.java" afterDir="false" />
@@ -44,11 +65,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/quantity_measurement/QuantityMeasurementTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="151" column="46" lean-forward="true" selection-start-line="151" selection-start-column="46" selection-end-line="151" selection-end-column="46" />
+            <state relative-caret-position="105">
+              <caret line="61" column="32" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,19 +78,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/quantity_measurement/QuantityMeasurement.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/quantity_measurement/UnitType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-144">
-              <caret line="15" column="83" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
+            <state relative-caret-position="81">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/quantity_measurement/QuantityMeasurement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-144">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/quantity_measurement/UnitConversion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            <state relative-caret-position="21">
+              <caret line="5" column="80" selection-start-line="5" selection-start-column="80" selection-end-line="5" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -104,6 +134,8 @@
         <option value="$PROJECT_DIR$/src/main/java/quantity_measurement/Inch.java" />
         <option value="$PROJECT_DIR$/src/test/java/quantity_measurement/LengthMeasurementTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/quantity_measurement/LengthMeasurement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quantity_measurement/Unit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quantity_measurement/UnitType.java" />
         <option value="$PROJECT_DIR$/src/main/java/quantity_measurement/QuantityMeasurement.java" />
         <option value="$PROJECT_DIR$/src/test/java/quantity_measurement/QuantityMeasurementTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/quantity_measurement/UnitConversion.java" />
@@ -207,27 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.QuantityMeasurementTest.whenGivenOneYard_shouldReturnThreeFeet">
-    <configuration name="LengthMeasurementTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;quantity_measurement.LengthMeasurementTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.QuantityMeasurementTest.whenGivenInchReference_shouldReturnEqual">
     <configuration name="QuantityMeasurementTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -248,12 +260,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QuantityMeasurementTest.whenGivenOneYardAndThirtySixInch_shouldReturnEquals" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QuantityMeasurementTest.whenGivenInchReference_shouldReturnEqual" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;quantity_measurement.QuantityMeasurementTest.whenGivenOneYardAndThirtySixInch_shouldReturnEquals&quot;" />
+        <option name="scriptParameters" value="--tests &quot;quantity_measurement.QuantityMeasurementTest.whenGivenInchReference_shouldReturnEqual&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="QuantityMeasurementTest.whenGivenOneFeetAndOneYard1_shouldReturnNotequals" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;quantity_measurement.QuantityMeasurementTest.whenGivenOneFeetAndOneYard1_shouldReturnNotequals&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -288,12 +320,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QuantityMeasurementTest.whenGivenThirtySixInch_shouldReturnOneYard" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QuantityMeasurementTest.whenGivenThreeFeet1_shouldReturnOneYard" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;quantity_measurement.QuantityMeasurementTest.whenGivenThirtySixInch_shouldReturnOneYard&quot;" />
+        <option name="scriptParameters" value="--tests &quot;quantity_measurement.QuantityMeasurementTest.whenGivenThreeFeet1_shouldReturnOneYard&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -310,11 +342,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.QuantityMeasurementTest.whenGivenOneYard_shouldReturnThreeFeet" />
+        <item itemvalue="Gradle.QuantityMeasurementTest.whenGivenInchReference_shouldReturnEqual" />
+        <item itemvalue="Gradle.QuantityMeasurementTest.whenGivenThreeFeet1_shouldReturnOneYard" />
+        <item itemvalue="Gradle.QuantityMeasurementTest.whenGivenOneFeetAndOneYard1_shouldReturnNotequals" />
         <item itemvalue="Gradle.QuantityMeasurementTest" />
-        <item itemvalue="Gradle.QuantityMeasurementTest.whenGivenThirtySixInch_shouldReturnOneYard" />
-        <item itemvalue="Gradle.QuantityMeasurementTest.whenGivenOneYardAndThirtySixInch_shouldReturnEquals" />
-        <item itemvalue="Gradle.LengthMeasurementTest" />
+        <item itemvalue="Gradle.QuantityMeasurementTest.whenGivenOneYard_shouldReturnThreeFeet" />
       </list>
     </recent_temporary>
   </component>
@@ -332,48 +364,49 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LengthMeasurementTest - 2020.01.28 at 13h 38m 43s.xml">
-      <configuration name="LengthMeasurementTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="QuantityMeasurementTest_whenGivenOneYard1_shouldReturnThreeFeet - 2020.01.29 at 10h 00m 33s.xml">
+      <configuration name="QuantityMeasurementTest.whenGivenOneYard1_shouldReturnThreeFeet" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="LengthMeasurementTest - 2020.01.28 at 15h 14m 16s.xml">
-      <configuration name="LengthMeasurementTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="QuantityMeasurementTest_whenGivenOneYardAndThirtySixInch_shouldReturnEquals - 2020.01.28 at 15h 59m 09s.xml">
-      <configuration name="QuantityMeasurementTest.whenGivenOneYardAndThirtySixInch_shouldReturnEquals" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="QuantityMeasurementTest_whenGivenThirtySixInch_shouldReturnOneYard - 2020.01.28 at 16h 02m 48s.xml">
-      <configuration name="QuantityMeasurementTest.whenGivenThirtySixInch_shouldReturnOneYard" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="QuantityMeasurementTest_whenGivenOneYard_shouldReturnThreeFeet - 2020.01.28 at 16h 08m 33s.xml">
+    <history-entry file="QuantityMeasurementTest_whenGivenOneYard_shouldReturnThreeFeet - 2020.01.29 at 10h 00m 45s.xml">
       <configuration name="QuantityMeasurementTest.whenGivenOneYard_shouldReturnThreeFeet" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="QuantityMeasurementTest_whenGivenOneYard_shouldReturnThreeFeet - 2020.01.28 at 16h 09m 55s.xml">
-      <configuration name="QuantityMeasurementTest.whenGivenOneYard_shouldReturnThreeFeet" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="QuantityMeasurementTest - 2020.01.28 at 16h 10m 00s.xml">
+    <history-entry file="QuantityMeasurementTest - 2020.01.29 at 10h 01m 42s.xml">
       <configuration name="QuantityMeasurementTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="QuantityMeasurementTest_whenGivenOneYard_shouldReturnThreeFeet - 2020.01.28 at 16h 11m 35s.xml">
-      <configuration name="QuantityMeasurementTest.whenGivenOneYard_shouldReturnThreeFeet" configurationId="GradleRunConfiguration" />
+    <history-entry file="QuantityMeasurementTest - 2020.01.29 at 10h 02m 28s.xml">
+      <configuration name="QuantityMeasurementTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="QuantityMeasurementTest_whenGivenOneYard_shouldReturnThreeFeet - 2020.01.28 at 16h 14m 01s.xml">
-      <configuration name="QuantityMeasurementTest.whenGivenOneYard_shouldReturnThreeFeet" configurationId="GradleRunConfiguration" />
+    <history-entry file="QuantityMeasurementTest_whenGivenOneFeetAndOneYard1_shouldReturnNotequals - 2020.01.29 at 10h 03m 02s.xml">
+      <configuration name="QuantityMeasurementTest.whenGivenOneFeetAndOneYard1_shouldReturnNotequals" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="QuantityMeasurementTest_whenGivenOneYard_shouldReturnThreeFeet - 2020.01.28 at 16h 14m 18s.xml">
-      <configuration name="QuantityMeasurementTest.whenGivenOneYard_shouldReturnThreeFeet" configurationId="GradleRunConfiguration" />
+    <history-entry file="QuantityMeasurementTest_whenGivenThreeFeet1_shouldReturnOneYard - 2020.01.29 at 10h 03m 28s.xml">
+      <configuration name="QuantityMeasurementTest.whenGivenThreeFeet1_shouldReturnOneYard" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="QuantityMeasurementTest_whenGivenThreeFeet1_shouldReturnOneYard - 2020.01.29 at 10h 03m 50s.xml">
+      <configuration name="QuantityMeasurementTest.whenGivenThreeFeet1_shouldReturnOneYard" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="QuantityMeasurementTest_whenGivenThreeFeet1_shouldReturnOneYard - 2020.01.29 at 10h 05m 58s.xml">
+      <configuration name="QuantityMeasurementTest.whenGivenThreeFeet1_shouldReturnOneYard" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="QuantityMeasurementTest_whenGivenThreeFeet1_shouldReturnOneYard - 2020.01.29 at 10h 06m 00s.xml">
+      <configuration name="QuantityMeasurementTest.whenGivenThreeFeet1_shouldReturnOneYard" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="QuantityMeasurementTest_whenGivenInchReference_shouldReturnEqual - 2020.01.29 at 10h 07m 20s.xml">
+      <configuration name="QuantityMeasurementTest.whenGivenInchReference_shouldReturnEqual" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4974227" visible="true" weight="0.25778133" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4974227" visible="true" weight="0.26177174" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" />
-      <window_info id="Favorites" order="7" sideWeight="0.5025773" side_tool="true" visible="true" weight="0.25778133" />
+      <window_info id="Favorites" order="7" sideWeight="0.5025773" side_tool="true" weight="0.25778133" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36807817" />
@@ -395,6 +428,36 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4974227" visible="true" weight="0.25778133" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" sideWeight="0.5025773" side_tool="true" weight="0.25778133" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36807817" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5635179" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3306189" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Build" order="10" visible="true" weight="0.32954547" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24980047" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -465,27 +528,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quantity_measurement/QuantityMeasurement.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/quantity_measurement/UnitType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="15" column="83" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quantity_measurement/UnitConversion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        <state relative-caret-position="81">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/quantity_measurement/QuantityMeasurementTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="151" column="46" lean-forward="true" selection-start-line="151" selection-start-column="46" selection-end-line="151" selection-end-column="46" />
+        <state relative-caret-position="105">
+          <caret line="61" column="32" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quantity_measurement/QuantityMeasurement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quantity_measurement/UnitConversion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="5" column="80" selection-start-line="5" selection-start-column="80" selection-end-line="5" selection-end-column="80" />
         </state>
       </provider>
     </entry>
