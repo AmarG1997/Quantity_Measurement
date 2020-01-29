@@ -8,14 +8,17 @@ public enum  UnitType {
     CM(1/2.54),
     LITRES(1000),
     GALLON(3785),
-    ML(1);
+    ML(1),
+    TONNE(1000000),
+    KILOGRAM(1000),
+    GRAM(1);
     double val;
 
     UnitType(double i) {
         this.val=i;
     }
 
-    public double getInchValue(double value){
+    public double getTypeValue(double value){
 
        double val1=this.val*value;
 

@@ -13,7 +13,7 @@ public class QuantityMeasurement {
     public QuantityMeasurement() {
     }
 
-    public enum Units{INCH,FEET,YARD,CM,ML,LITRE,GALLON}
+    public enum Units{INCH,FEET,YARD,CM,ML,LITRE,GALLON,KILOGRAM,TONNE,GRAM}
 
     public double getConversion(double value, Units units){
         UnitConversion unitConversion = new UnitConversion();
@@ -24,9 +24,11 @@ public class QuantityMeasurement {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
+
         if (!(o instanceof QuantityMeasurement)) return false;
         QuantityMeasurement that = (QuantityMeasurement) o;
-        return units == that.units &&
+        this.units=that.units;
+        return units == that.units && this.units == that.units &&
                 Objects.equals(units, that.units);
     }
 

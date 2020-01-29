@@ -14,14 +14,10 @@ public class QuantityMeasurementTest {
 
     @Test
     public void whenGivenNullValue_shouldThrowNullException() throws QuantityMeasurementException {
-        try {
             QuantityMeasurement first = new QuantityMeasurement(null, QuantityMeasurement.Units.INCH);
             QuantityMeasurement second = new QuantityMeasurement(null, QuantityMeasurement.Units.INCH);
             Assert.assertEquals(first, second);
-        } catch (NullPointerException e) {
-            throw new QuantityMeasurementException("Null pointer Exception",
-                    QuantityMeasurementException.ExceptionType.NULL_POINTER_EXCEPTION);
-        }
+
     }
 
     @Test

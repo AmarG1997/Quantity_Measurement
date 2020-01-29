@@ -25,6 +25,16 @@ public class UnitConversion {
         if (units.equals(QuantityMeasurement.Units.ML)){
             value = value/1;
         }
+        if (units.equals(QuantityMeasurement.Units.TONNE)){
+            value = value/1000;
+        }
+        if (units.equals(QuantityMeasurement.Units.KILOGRAM)) {
+            value = value/1000;
+        }
+        if (units.equals(QuantityMeasurement.Units.GRAM)) {
+            value = value*1;
+        }
+
         return value;
     }
 }
