@@ -115,4 +115,11 @@ public class ValueConversionTest {
         double val = lengthMeasurement.getConversion(inchValue, QuantityMeasurement.Units.LITRE);
         Assert.assertEquals(3.785, val, 0);
     }
+    @Test
+    public void whenGivenOneLitre_shouldReturnInMililitres() {
+        QuantityMeasurement lengthMeasurement = new QuantityMeasurement();
+        double inchValue = UnitType.LITRES.getInchValue(1.0);
+        double val = lengthMeasurement.getConversion(inchValue, QuantityMeasurement.Units.ML);
+        Assert.assertEquals(1000.0, val, 0);
+    }
 }
