@@ -176,6 +176,13 @@ public class QuantityMeasurementTest {
         Assert.assertEquals(1,val,0);
     }
 
+    @Test
+    public void whenGivenTwoInch_shouldReturnFiveCentimeter() {
+        QuantityMeasurement lengthMeasurement=new QuantityMeasurement();
+        double inchValue = UnitType.INCH.getInchValue(2.0);
+        double val = lengthMeasurement.getConversion(inchValue,QuantityMeasurement.Units.CM);
+        Assert.assertEquals(5,val,0);
+    }
 }
 
 

@@ -13,6 +13,9 @@ public class UnitConversion {
         if (units.equals(QuantityMeasurement.Units.INCH)){
             value=value/1;
         }
+        if (units.equals(QuantityMeasurement.Units.CM)){
+            value= Double.valueOf(Math.round(value*2.54));
+        }
 
         return value;
     }

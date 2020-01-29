@@ -4,8 +4,8 @@ public enum  UnitType {
 
     FEET(12),
     INCH(1),
-    YARD(36);
-
+    YARD(36),
+    CM(1/2.54);
     double val;
 
     UnitType(double i) {
