@@ -210,6 +210,14 @@ public class QuantityMeasurementTest {
         double result = lengthMeasurement.getAddition(inchValue, inchValue1);
         Assert.assertEquals(24, result, 0);
     }
+    @Test
+    public void whenGivenTwoInchAndTwoPointFiveCm_shouldReturnThreeInches() {
+        QuantityMeasurement lengthMeasurement = new QuantityMeasurement();
+        double inchValue = UnitType.INCH.getInchValue(2.0);
+        double inchValue1 = UnitType.CM.getInchValue(2.54);
+        double result = lengthMeasurement.getAddition(inchValue, inchValue1);
+        Assert.assertEquals(3.0, result, 0);
+    }
 }
 
 
