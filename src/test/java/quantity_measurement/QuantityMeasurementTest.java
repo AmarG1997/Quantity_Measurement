@@ -183,6 +183,15 @@ public class QuantityMeasurementTest {
         double val = lengthMeasurement.getConversion(inchValue,QuantityMeasurement.Units.CM);
         Assert.assertEquals(5,val,0);
     }
+
+    @Test
+    public void whenGivenTwoInchAndTwoInch_shouldReturnFour() {
+        QuantityMeasurement lengthMeasurement=new QuantityMeasurement();
+        double inchValue = UnitType.INCH.getInchValue(2.0);
+        double inchValue1 = UnitType.INCH.getInchValue(2.0);
+        double result = lengthMeasurement.getAddition(inchValue,inchValue1);
+        Assert.assertEquals(4,result,0);
+    }
 }
 
 

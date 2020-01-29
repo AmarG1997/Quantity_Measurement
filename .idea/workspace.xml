@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5970b1a0-7258-499f-addd-a26580738dca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/quantity_measurement/QuantityMeasurement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quantity_measurement/QuantityMeasurement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quantity_measurement/UnitConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quantity_measurement/UnitConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quantity_measurement/UnitType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quantity_measurement/UnitType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/quantity_measurement/QuantityMeasurementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/quantity_measurement/QuantityMeasurementTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,11 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/quantity_measurement/QuantityMeasurementTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="183" column="29" lean-forward="true" selection-start-line="183" selection-start-column="29" selection-end-line="183" selection-end-column="29" />
+            <state relative-caret-position="231">
+              <caret line="187" column="53" selection-start-line="187" selection-start-column="53" selection-end-line="187" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,17 +54,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/quantity_measurement/UnitType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
+            <state relative-caret-position="105">
               <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/quantity_measurement/QuantityMeasurement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+            <state relative-caret-position="201">
+              <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -111,10 +109,10 @@
         <option value="$PROJECT_DIR$/src/test/java/quantity_measurement/LengthMeasurementTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/quantity_measurement/LengthMeasurement.java" />
         <option value="$PROJECT_DIR$/src/main/java/quantity_measurement/Unit.java" />
-        <option value="$PROJECT_DIR$/src/main/java/quantity_measurement/QuantityMeasurement.java" />
         <option value="$PROJECT_DIR$/src/main/java/quantity_measurement/UnitType.java" />
         <option value="$PROJECT_DIR$/src/main/java/quantity_measurement/UnitConversion.java" />
         <option value="$PROJECT_DIR$/src/test/java/quantity_measurement/QuantityMeasurementTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quantity_measurement/QuantityMeasurement.java" />
       </list>
     </option>
   </component>
@@ -215,7 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.QuantityMeasurementTest.whenGivenTwoInch_shouldReturnFiveCentimeter">
+  <component name="RunManager" selected="Gradle.QuantityMeasurementTest.whenGivenTwoInchAndTwoInch_shouldReturnFour">
     <configuration name="QuantityMeasurementTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -256,12 +254,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QuantityMeasurementTest.whenGivenOneFeetAndOneYard1_shouldReturnNotequals" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QuantityMeasurementTest.whenGivenThreeFeet1_shouldReturnOneYard" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;quantity_measurement.QuantityMeasurementTest.whenGivenOneFeetAndOneYard1_shouldReturnNotequals&quot;" />
+        <option name="scriptParameters" value="--tests &quot;quantity_measurement.QuantityMeasurementTest.whenGivenThreeFeet1_shouldReturnOneYard&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -276,12 +274,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QuantityMeasurementTest.whenGivenThreeFeet1_shouldReturnOneYard" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QuantityMeasurementTest.whenGivenTwoInchAndTwoInch_shouldReturnFour" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;quantity_measurement.QuantityMeasurementTest.whenGivenThreeFeet1_shouldReturnOneYard&quot;" />
+        <option name="scriptParameters" value="--tests &quot;quantity_measurement.QuantityMeasurementTest.whenGivenTwoInchAndTwoInch_shouldReturnFour&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -318,11 +316,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.QuantityMeasurementTest.whenGivenTwoInchAndTwoInch_shouldReturnFour" />
+        <item itemvalue="Gradle.QuantityMeasurementTest" />
         <item itemvalue="Gradle.QuantityMeasurementTest.whenGivenTwoInch_shouldReturnFiveCentimeter" />
         <item itemvalue="Gradle.QuantityMeasurementTest.whenGivenInchReference_shouldReturnEqual" />
         <item itemvalue="Gradle.QuantityMeasurementTest.whenGivenThreeFeet1_shouldReturnOneYard" />
-        <item itemvalue="Gradle.QuantityMeasurementTest.whenGivenOneFeetAndOneYard1_shouldReturnNotequals" />
-        <item itemvalue="Gradle.QuantityMeasurementTest" />
       </list>
     </recent_temporary>
   </component>
@@ -340,15 +338,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QuantityMeasurementTest - 2020.01.29 at 10h 02m 28s.xml">
-      <configuration name="QuantityMeasurementTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="QuantityMeasurementTest_whenGivenOneFeetAndOneYard1_shouldReturnNotequals - 2020.01.29 at 10h 03m 02s.xml">
-      <configuration name="QuantityMeasurementTest.whenGivenOneFeetAndOneYard1_shouldReturnNotequals" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="QuantityMeasurementTest_whenGivenThreeFeet1_shouldReturnOneYard - 2020.01.29 at 10h 03m 28s.xml">
-      <configuration name="QuantityMeasurementTest.whenGivenThreeFeet1_shouldReturnOneYard" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="QuantityMeasurementTest_whenGivenThreeFeet1_shouldReturnOneYard - 2020.01.29 at 10h 03m 50s.xml">
       <configuration name="QuantityMeasurementTest.whenGivenThreeFeet1_shouldReturnOneYard" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -369,6 +358,15 @@
     </history-entry>
     <history-entry file="QuantityMeasurementTest_whenGivenTwoInch_shouldReturnFiveCentimeter - 2020.01.29 at 10h 17m 59s.xml">
       <configuration name="QuantityMeasurementTest.whenGivenTwoInch_shouldReturnFiveCentimeter" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="QuantityMeasurementTest_whenGivenTwoInch_shouldReturnFiveCentimeter - 2020.01.29 at 10h 19m 14s.xml">
+      <configuration name="QuantityMeasurementTest.whenGivenTwoInch_shouldReturnFiveCentimeter" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="QuantityMeasurementTest - 2020.01.29 at 10h 21m 11s.xml">
+      <configuration name="QuantityMeasurementTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="QuantityMeasurementTest_whenGivenTwoInchAndTwoInch_shouldReturnFour - 2020.01.29 at 10h 23m 59s.xml">
+      <configuration name="QuantityMeasurementTest.whenGivenTwoInchAndTwoInch_shouldReturnFour" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -504,13 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quantity_measurement/QuantityMeasurement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/quantity_measurement/UnitConversion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -520,18 +511,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/quantity_measurement/UnitType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
+        <state relative-caret-position="105">
           <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/quantity_measurement/QuantityMeasurementTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="183" column="29" lean-forward="true" selection-start-line="183" selection-start-column="29" selection-end-line="183" selection-end-column="29" />
+        <state relative-caret-position="231">
+          <caret line="187" column="53" selection-start-line="187" selection-start-column="53" selection-end-line="187" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quantity_measurement/QuantityMeasurement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
         </state>
       </provider>
     </entry>

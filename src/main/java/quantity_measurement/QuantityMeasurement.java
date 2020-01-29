@@ -30,10 +30,9 @@ public class QuantityMeasurement {
                 Objects.equals(units, that.units);
     }
 
-    @Override
-    public int hashCode() {
-
-        return Objects.hash(units, units);
+    public double getAddition(double val,double value){
+        double additionResult =val+value;
+        return additionResult;
     }
 }
 
