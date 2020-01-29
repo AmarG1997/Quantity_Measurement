@@ -9,7 +9,7 @@ public class QuantityMeasurementTest {
     public void whenGivenZeroFeetOrZeroFeet_ShouldReturnEquals() {
         QuantityMeasurement first = new QuantityMeasurement(0.0, QuantityMeasurement.Units.INCH);
         QuantityMeasurement second = new QuantityMeasurement(0.0, QuantityMeasurement.Units.INCH);
-        Assert.assertEquals(first,second);
+        Assert.assertEquals(first, second);
     }
 
     @Test
@@ -17,8 +17,8 @@ public class QuantityMeasurementTest {
         try {
             QuantityMeasurement first = new QuantityMeasurement(null, QuantityMeasurement.Units.INCH);
             QuantityMeasurement second = new QuantityMeasurement(null, QuantityMeasurement.Units.INCH);
-            Assert.assertEquals(first,second);
-        }catch (NullPointerException e){
+            Assert.assertEquals(first, second);
+        } catch (NullPointerException e) {
             throw new QuantityMeasurementException("Null pointer Exception",
                     QuantityMeasurementException.ExceptionType.NULL_POINTER_EXCEPTION);
         }
@@ -51,8 +51,8 @@ public class QuantityMeasurementTest {
         try {
             QuantityMeasurement first = new QuantityMeasurement(null, QuantityMeasurement.Units.FEET);
             QuantityMeasurement second = new QuantityMeasurement(null, QuantityMeasurement.Units.FEET);
-            Assert.assertEquals(first,second);
-        }catch (NullPointerException e){
+            Assert.assertEquals(first, second);
+        } catch (NullPointerException e) {
             throw new QuantityMeasurementException("Null pointer Exception",
                     QuantityMeasurementException.ExceptionType.NULL_POINTER_EXCEPTION);
         }
@@ -78,42 +78,42 @@ public class QuantityMeasurementTest {
         QuantityMeasurement lengthMeasurement = new QuantityMeasurement();
         double first = lengthMeasurement.getConversion(0.0, QuantityMeasurement.Units.FEET);
         double second = lengthMeasurement.getConversion(0.0, QuantityMeasurement.Units.INCH);
-        Assert.assertTrue(first==second);
+        Assert.assertTrue(first == second);
     }
 
     @Test
     public void whenGivenOneFeetAndOneInch_shouldReturnNotEquals() {
         double inchvalue = UnitType.FEET.getInchValue(1.0);
         double inchValue = UnitType.INCH.getInchValue(1.0);
-        Assert.assertTrue(inchValue!=inchvalue);
+        Assert.assertTrue(inchValue != inchvalue);
     }
 
     @Test
     public void whenGivenOneInchAndOneFeet_shouldReturnNotEquals() {
         double inchvalue = UnitType.INCH.getInchValue(1.0);
         double inchValue = UnitType.FEET.getInchValue(1.0);
-        Assert.assertTrue(inchValue!=inchvalue);
+        Assert.assertTrue(inchValue != inchvalue);
     }
 
     @Test
     public void WhenGivenFeetAndInch_shouldReturnEquals() {
         double inchvalue = UnitType.FEET.getInchValue(1.0);
         double inchValue = UnitType.INCH.getInchValue(12.0);
-        Assert.assertTrue(inchValue==inchvalue);
+        Assert.assertTrue(inchValue == inchvalue);
     }
 
     @Test
     public void WhenGivenFeetAndInches_shouldReturnEquals() {
         double inchvalue = UnitType.FEET.getInchValue(1.0);
         double inchValue = UnitType.INCH.getInchValue(1.0);
-        Assert.assertTrue(inchValue!=inchvalue);
+        Assert.assertTrue(inchValue != inchvalue);
     }
 
     @Test
     public void whenGivenThreeFeet_shouldReturnOneYard() {
         double inchvalue = UnitType.FEET.getInchValue(3.0);
         double inchValue = UnitType.YARD.getInchValue(1.0);
-        Assert.assertTrue(inchValue==inchvalue);
+        Assert.assertTrue(inchValue == inchvalue);
     }
 
     @Test
@@ -121,21 +121,21 @@ public class QuantityMeasurementTest {
         QuantityMeasurement lengthMeasurement = new QuantityMeasurement();
         double inchvalue = UnitType.FEET.getInchValue(1.0);
         double inchValue = UnitType.YARD.getInchValue(1.0);
-        Assert.assertTrue(inchValue!=inchvalue);
+        Assert.assertTrue(inchValue != inchvalue);
     }
 
     @Test
     public void whenGivenOneInchAndOneYard_shouldReturnNotEquals() {
         double inchvalue = UnitType.INCH.getInchValue(1.0);
         double inchValue = UnitType.YARD.getInchValue(1.0);
-        Assert.assertTrue(inchValue!=inchvalue);
+        Assert.assertTrue(inchValue != inchvalue);
     }
 
     @Test
     public void whenGivenOneYardAndThirtySixInch_shouldReturnEquals() {
         double inchvalue = UnitType.YARD.getInchValue(1.0);
         double inchValue = UnitType.INCH.getInchValue(36.0);
-        Assert.assertTrue(inchValue==inchvalue);
+        Assert.assertTrue(inchValue == inchvalue);
     }
 
     @Test
@@ -143,54 +143,64 @@ public class QuantityMeasurementTest {
         QuantityMeasurement lengthMeasurement = new QuantityMeasurement();
         double inchvalue = UnitType.INCH.getInchValue(36.0);
         double inchValue = UnitType.YARD.getInchValue(1.0);
-        Assert.assertTrue(inchValue==inchvalue);
+        Assert.assertTrue(inchValue == inchvalue);
     }
 
     @Test
     public void whenGivenOneYard_shouldReturnThreeFeet() {
         double inchvalue = UnitType.YARD.getInchValue(1.0);
         double inchValue = UnitType.FEET.getInchValue(3.0);
-        Assert.assertTrue(inchValue==inchvalue);
+        Assert.assertTrue(inchValue == inchvalue);
     }
 
     @Test
     public void whenGivenOneYard1_shouldReturnThreeFeet() {
         double inchvalue = UnitType.YARD.getInchValue(1.0);
         double inchValue = UnitType.FEET.getInchValue(3.0);
-        Assert.assertTrue(inchValue==inchvalue);
+        Assert.assertTrue(inchValue == inchvalue);
     }
 
     @Test
     public void whenGivenOneFeetAndOneYard1_shouldReturnNotequals() {
         QuantityMeasurement lengthMeasurement = new QuantityMeasurement();
         double inchValue = UnitType.FEET.getInchValue(1.0);
-        double val = lengthMeasurement.getConversion(inchValue,QuantityMeasurement.Units.YARD);
-        Assert.assertTrue(inchValue!=val);
+        double val = lengthMeasurement.getConversion(inchValue, QuantityMeasurement.Units.YARD);
+        Assert.assertTrue(inchValue != val);
     }
 
     @Test
     public void whenGivenThreeFeet1_shouldReturnOneYard() {
-        QuantityMeasurement lengthMeasurement=new QuantityMeasurement();
+        QuantityMeasurement lengthMeasurement = new QuantityMeasurement();
         double inchValue = UnitType.FEET.getInchValue(3.0);
-        double val = lengthMeasurement.getConversion(inchValue,QuantityMeasurement.Units.YARD);
-        Assert.assertEquals(1,val,0);
+        double val = lengthMeasurement.getConversion(inchValue, QuantityMeasurement.Units.YARD);
+        Assert.assertEquals(1, val, 0);
     }
 
     @Test
     public void whenGivenTwoInch_shouldReturnFiveCentimeter() {
-        QuantityMeasurement lengthMeasurement=new QuantityMeasurement();
+        QuantityMeasurement lengthMeasurement = new QuantityMeasurement();
         double inchValue = UnitType.INCH.getInchValue(2.0);
-        double val = lengthMeasurement.getConversion(inchValue,QuantityMeasurement.Units.CM);
-        Assert.assertEquals(5,val,0);
+        double val = lengthMeasurement.getConversion(inchValue, QuantityMeasurement.Units.CM);
+        Assert.assertEquals(5, val, 0);
     }
 
     @Test
     public void whenGivenTwoInchAndTwoInch_shouldReturnFour() {
-        QuantityMeasurement lengthMeasurement=new QuantityMeasurement();
+        QuantityMeasurement lengthMeasurement = new QuantityMeasurement();
         double inchValue = UnitType.INCH.getInchValue(2.0);
         double inchValue1 = UnitType.INCH.getInchValue(2.0);
-        double result = lengthMeasurement.getAddition(inchValue,inchValue1);
-        Assert.assertEquals(4,result,0);
+        double result = lengthMeasurement.getAddition(inchValue, inchValue1);
+        Assert.assertEquals(4, result, 0);
+    }
+
+    @Test
+    public void whenGivenOneFetAndTwoInch_shouldReturnFourteenInches() {
+        QuantityMeasurement lengthMeasurement = new QuantityMeasurement();
+        double inchValue = UnitType.FEET.getInchValue(1.0);
+        double inchValue1 = UnitType.INCH.getInchValue(2.0);
+        double result = lengthMeasurement.getAddition(inchValue, inchValue1);
+        Assert.assertEquals(14, result, 0);
+
     }
 }
 

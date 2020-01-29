@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="quantity_measurement.QuantityMeasurementTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2020-01-29T04:54:56" hostname="admin1-HP-EliteBook-Folio-9480m" time="0.014">
+<testsuite name="quantity_measurement.QuantityMeasurementTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-29T05:00:01" hostname="admin1-HP-EliteBook-Folio-9480m" time="0.002">
   <properties/>
-  <testcase name="whenGivenZeroInchOrZeroInch_ShouldReturnEquals" classname="quantity_measurement.QuantityMeasurementTest" time="0.001"/>
-  <testcase name="whenGivenOneFeetAndOneYard1_shouldReturnNotequals" classname="quantity_measurement.QuantityMeasurementTest" time="0.001"/>
-  <testcase name="whenGivenReference_shouldReturnEqual" classname="quantity_measurement.QuantityMeasurementTest" time="0.0"/>
-  <testcase name="whenGivenTwoInch_shouldReturnFiveCentimeter" classname="quantity_measurement.QuantityMeasurementTest" time="0.001"/>
-  <testcase name="whenGivenOneFeetAndOneInch_shouldReturnNotEquals" classname="quantity_measurement.QuantityMeasurementTest" time="0.0"/>
-  <testcase name="whenGivenThreeFeet_shouldReturnOneYard" classname="quantity_measurement.QuantityMeasurementTest" time="0.0"/>
-  <testcase name="whenGivenOneYard_shouldReturnThreeFeet" classname="quantity_measurement.QuantityMeasurementTest" time="0.0"/>
-  <testcase name="whenGivenThirtySixInch_shouldReturnOneYard" classname="quantity_measurement.QuantityMeasurementTest" time="0.0"/>
-  <testcase name="whenGivenOneFeetAndOneInch_shouldReturnEquals" classname="quantity_measurement.QuantityMeasurementTest" time="0.001"/>
-  <testcase name="whenGivenNullValueForInch_shouldThrowNullException" classname="quantity_measurement.QuantityMeasurementTest" time="0.0"/>
-  <testcase name="whenGivenOneYard1_shouldReturnThreeFeet" classname="quantity_measurement.QuantityMeasurementTest" time="0.0"/>
-  <testcase name="whenGivenOneFeetAndOneYard_shouldReturnNotequals" classname="quantity_measurement.QuantityMeasurementTest" time="0.0"/>
-  <testcase name="whenGivenZeroFeetOrZeroFeet_ShouldReturnEquals" classname="quantity_measurement.QuantityMeasurementTest" time="0.0"/>
-  <testcase name="whenGivenTwoInchAndTwoInch_shouldReturnFour" classname="quantity_measurement.QuantityMeasurementTest" time="0.001"/>
-  <testcase name="WhenGivenFeetAndInch_shouldReturnEquals" classname="quantity_measurement.QuantityMeasurementTest" time="0.0"/>
-  <testcase name="whenGivenOneYardAndThirtySixInch_shouldReturnEquals" classname="quantity_measurement.QuantityMeasurementTest" time="0.001"/>
-  <testcase name="whenGivenInchReference_shouldReturnEqual" classname="quantity_measurement.QuantityMeasurementTest" time="0.001"/>
-  <testcase name="whenGivenOneInchAndOneFeet_shouldReturnNotEquals" classname="quantity_measurement.QuantityMeasurementTest" time="0.0"/>
-  <testcase name="whenGivenTypeCheckForInch_ShouldReturnEquals" classname="quantity_measurement.QuantityMeasurementTest" time="0.0"/>
-  <testcase name="whenGivenNullValue_shouldThrowNullException" classname="quantity_measurement.QuantityMeasurementTest" time="0.0"/>
-  <testcase name="whenGivenOneInchAndOneYard_shouldReturnNotEquals" classname="quantity_measurement.QuantityMeasurementTest" time="0.0"/>
-  <testcase name="WhenGivenFeetAndInches_shouldReturnEquals" classname="quantity_measurement.QuantityMeasurementTest" time="0.0"/>
-  <testcase name="whenGivenTypeCheckForFeet_ShouldReturnEquals" classname="quantity_measurement.QuantityMeasurementTest" time="0.0"/>
-  <testcase name="whenGivenThreeFeet1_shouldReturnOneYard" classname="quantity_measurement.QuantityMeasurementTest" time="0.001"/>
+  <testcase name="whenGivenOneFetAndTwoInch_shouldReturnFourteenInches" classname="quantity_measurement.QuantityMeasurementTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
