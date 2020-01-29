@@ -3,7 +3,7 @@ package quantity_measurement;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class UnitConversionTest {
+public class ValueConversionTest {
 
     @Test
     public void whenGivenOneFeetAndOneInch_shouldReturnEquals() {
@@ -106,5 +106,13 @@ public class UnitConversionTest {
         double inchValue = UnitType.FEET.getInchValue(3.0);
         double val = lengthMeasurement.getConversion(inchValue, QuantityMeasurement.Units.YARD);
         Assert.assertEquals(1, val, 0);
+    }
+
+    @Test
+    public void whenGivenOneGallon_shouldReturnInLitres() {
+        QuantityMeasurement lengthMeasurement = new QuantityMeasurement();
+        double inchValue = UnitType.GALLON.getInchValue(1.0);
+        double val = lengthMeasurement.getConversion(inchValue, QuantityMeasurement.Units.LITRE);
+        Assert.assertEquals(3.785, val, 0);
     }
 }

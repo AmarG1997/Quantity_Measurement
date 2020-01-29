@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="quantity_measurement.ValueConversionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-29T09:55:05" hostname="admin1-HP-EliteBook-Folio-9480m" time="0.003">
+  <properties/>
+  <testcase name="whenGivenOneGallon_shouldReturnInLitres" classname="quantity_measurement.ValueConversionTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

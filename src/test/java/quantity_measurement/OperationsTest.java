@@ -40,6 +40,7 @@ public class OperationsTest {
         double result = lengthMeasurement.getAddition(inchValue, inchValue1);
         Assert.assertEquals(24, result, 0);
     }
+
     @Test
     public void whenGivenTwoInchAndTwoPointFiveCm_shouldReturnThreeInches() {
         QuantityMeasurement lengthMeasurement = new QuantityMeasurement();

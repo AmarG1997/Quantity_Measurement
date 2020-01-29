@@ -5,7 +5,10 @@ public enum  UnitType {
     FEET(12),
     INCH(1),
     YARD(36),
-    CM(1/2.54);
+    CM(1/2.54),
+    LITRES(1000),
+    GALLON(3785),
+    ML(1);
     double val;
 
     UnitType(double i) {

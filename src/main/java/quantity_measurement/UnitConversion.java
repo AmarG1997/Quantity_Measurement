@@ -16,7 +16,15 @@ public class UnitConversion {
         if (units.equals(QuantityMeasurement.Units.CM)){
             value= Double.valueOf(Math.round(value*2.54));
         }
-
+        if (units.equals(QuantityMeasurement.Units.LITRE)){
+            value = value/1000;
+        }
+        if (units.equals(QuantityMeasurement.Units.GALLON)){
+            value = value/3785;
+        }
+        if (units.equals(QuantityMeasurement.Units.ML)){
+            value = value/1;
+        }
         return value;
     }
 }
