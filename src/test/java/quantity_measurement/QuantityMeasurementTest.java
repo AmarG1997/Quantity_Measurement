@@ -200,7 +200,15 @@ public class QuantityMeasurementTest {
         double inchValue1 = UnitType.INCH.getInchValue(2.0);
         double result = lengthMeasurement.getAddition(inchValue, inchValue1);
         Assert.assertEquals(14, result, 0);
+    }
 
+    @Test
+    public void whenGivenOneFeetAndOneFeet_shouldReturnTwentyFourInches() {
+        QuantityMeasurement lengthMeasurement = new QuantityMeasurement();
+        double inchValue = UnitType.FEET.getInchValue(1.0);
+        double inchValue1 = UnitType.FEET.getInchValue(1.0);
+        double result = lengthMeasurement.getAddition(inchValue, inchValue1);
+        Assert.assertEquals(24, result, 0);
     }
 }
 

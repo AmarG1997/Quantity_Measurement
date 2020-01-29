@@ -212,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.QuantityMeasurementTest">
+  <component name="RunManager" selected="Gradle.QuantityMeasurementTest.whenGivenOneFetAndTwoInch_shouldReturnFourteenInches">
     <configuration name="QuantityMeasurementTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -253,12 +253,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QuantityMeasurementTest.whenGivenThreeFeet1_shouldReturnOneYard" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QuantityMeasurementTest.whenGivenOneFetAndTwoInch_shouldReturnFourteenInches" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;quantity_measurement.QuantityMeasurementTest.whenGivenThreeFeet1_shouldReturnOneYard&quot;" />
+        <option name="scriptParameters" value="--tests &quot;quantity_measurement.QuantityMeasurementTest.whenGivenOneFetAndTwoInch_shouldReturnFourteenInches&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -315,11 +315,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.QuantityMeasurementTest.whenGivenOneFetAndTwoInch_shouldReturnFourteenInches" />
         <item itemvalue="Gradle.QuantityMeasurementTest" />
         <item itemvalue="Gradle.QuantityMeasurementTest.whenGivenTwoInchAndTwoInch_shouldReturnFour" />
         <item itemvalue="Gradle.QuantityMeasurementTest.whenGivenTwoInch_shouldReturnFiveCentimeter" />
         <item itemvalue="Gradle.QuantityMeasurementTest.whenGivenInchReference_shouldReturnEqual" />
-        <item itemvalue="Gradle.QuantityMeasurementTest.whenGivenThreeFeet1_shouldReturnOneYard" />
       </list>
     </recent_temporary>
   </component>
