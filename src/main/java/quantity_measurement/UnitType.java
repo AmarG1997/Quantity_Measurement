@@ -11,17 +11,18 @@ public enum  UnitType {
     ML(1),
     TONNE(1000000),
     KILOGRAM(1000),
-    GRAM(1);
-    double val;
+    GRAM(1),
+    FAHRENHEIT((212-32)*5/9),
+    CELCIUS(1.0);
 
-    UnitType(double i) {
+   private double val;
+
+     UnitType(double i) {
         this.val=i;
     }
 
     public double getTypeValue(double value){
-
        double val1=this.val*value;
-
         return val1;
     }
 }

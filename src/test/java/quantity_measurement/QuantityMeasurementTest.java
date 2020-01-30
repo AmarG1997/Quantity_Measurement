@@ -13,7 +13,7 @@ public class QuantityMeasurementTest {
     }
 
     @Test
-    public void whenGivenNullValue_shouldThrowNullException() throws QuantityMeasurementException {
+    public void whenGivenNullValue_shouldThrowNullException(){
             QuantityMeasurement first = new QuantityMeasurement(null, QuantityMeasurement.Units.INCH);
             QuantityMeasurement second = new QuantityMeasurement(null, QuantityMeasurement.Units.INCH);
             Assert.assertEquals(first, second);

@@ -2,7 +2,6 @@ package quantity_measurement;
 
 public class UnitConversion {
 
-
     public double getConversion(Double value, QuantityMeasurement.Units units) {
         if (units.equals(QuantityMeasurement.Units.FEET)){
             value=value/12;
@@ -33,6 +32,9 @@ public class UnitConversion {
         }
         if (units.equals(QuantityMeasurement.Units.GRAM)) {
             value = value*1;
+        }
+        if (units.equals(QuantityMeasurement.Units.CELCIUS)) {
+            value = (value-32) * 5/9 ;
         }
 
         return value;

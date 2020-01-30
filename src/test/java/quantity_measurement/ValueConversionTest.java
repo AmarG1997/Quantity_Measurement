@@ -139,4 +139,11 @@ public class ValueConversionTest {
         double value2 = lengthMeasurement.getConversion(value1, QuantityMeasurement.Units.KILOGRAM);
         Assert.assertEquals(1000.0, value2, 0);
     }
+
+    @Test
+    public void whenGivenFahrenheit_shouldReturnCelcius() {
+        QuantityMeasurement lengthMeasurement = new QuantityMeasurement();
+        double value2 = lengthMeasurement.getConversion(212, QuantityMeasurement.Units.CELCIUS);
+        Assert.assertEquals(100, value2, 0);
+    }
 }
