@@ -1,7 +1,6 @@
 package quantity_measurement;
 
 public enum  UnitType {
-
     FEET(12),
     INCH(1),
     YARD(36),
@@ -12,14 +11,14 @@ public enum  UnitType {
     TONNE(1000000),
     KILOGRAM(1000),
     GRAM(1),
-    FAHRENHEIT((212-32)*5/9),
-    CELCIUS(1.0);
+    FARHANHIT(1),
+    CELCIUS(2.12);
+    public double val;
 
-   private double val;
-
-     UnitType(double i) {
+    UnitType(double i) {
         this.val=i;
     }
+
 
     public double getTypeValue(double value){
        double val1=this.val*value;

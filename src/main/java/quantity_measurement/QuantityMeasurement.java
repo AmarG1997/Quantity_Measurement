@@ -15,7 +15,7 @@ public class QuantityMeasurement {
 
     public enum Units{INCH,FEET,YARD,CM,ML,LITRE,GALLON,KILOGRAM,TONNE,GRAM,CELCIUS,FAHRENHEIT}
 
-    public double getConversion(double value, Units units){
+    public double getConversion(double value,UnitType units){
         UnitConversion unitConversion = new UnitConversion();
         double conversion = unitConversion.getConversion(value, units);
         return conversion;
