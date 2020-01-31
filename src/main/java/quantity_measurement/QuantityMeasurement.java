@@ -7,13 +7,12 @@ public class QuantityMeasurement {
     public Units units;
 
     public QuantityMeasurement(Double value, Units feet) {
-
     }
 
     public QuantityMeasurement() {
     }
 
-    public enum Units{INCH,FEET,YARD,CM,ML,LITRE,GALLON,KILOGRAM,TONNE,GRAM,CELCIUS,FAHRENHEIT}
+    public enum Units{INCH,FEET}
 
     public double getConversion(double value,UnitType units){
         UnitConversion unitConversion = new UnitConversion();
