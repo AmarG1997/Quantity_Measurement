@@ -16,12 +16,6 @@ public class QuantityMeasurement {
 
     public enum Units{INCH,FEET}
 
-//    public double getConversion(double value,UnitType units){
-//        LengthConversion lengthConversion = new LengthConversion();
-//        double conversion = lengthConversion.getConversion(value, units);
-//        return conversion;
-//    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
