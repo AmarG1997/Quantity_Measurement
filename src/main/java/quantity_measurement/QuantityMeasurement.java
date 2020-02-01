@@ -5,8 +5,10 @@ import java.util.Objects;
 public class QuantityMeasurement {
 
     public Units units;
+    String unitType;
 
-    public QuantityMeasurement(Double value, Units feet) {
+    public QuantityMeasurement(Double value, Units feet,String unitType) {
+        this.unitType = unitType;
     }
 
     public QuantityMeasurement() {
@@ -14,11 +16,11 @@ public class QuantityMeasurement {
 
     public enum Units{INCH,FEET}
 
-    public double getConversion(double value,UnitType units){
-        UnitConversion unitConversion = new UnitConversion();
-        double conversion = unitConversion.getConversion(value, units);
-        return conversion;
-    }
+//    public double getConversion(double value,UnitType units){
+//        LengthConversion lengthConversion = new LengthConversion();
+//        double conversion = lengthConversion.getConversion(value, units);
+//        return conversion;
+//    }
 
     @Override
     public boolean equals(Object o) {
@@ -27,7 +29,7 @@ public class QuantityMeasurement {
         if (!(o instanceof QuantityMeasurement)) return false;
         QuantityMeasurement that = (QuantityMeasurement) o;
         this.units=that.units;
-        return units == that.units && this.units == that.units &&
+        return units == that.units && this.units == that.units && this.unitType.equals(that.unitType)&&
                 Objects.equals(units, that.units);
     }
 
@@ -35,6 +37,7 @@ public class QuantityMeasurement {
         double additionResult =val+value;
         return additionResult;
     }
+
 }
 
 

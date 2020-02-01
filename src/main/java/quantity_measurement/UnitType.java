@@ -1,27 +1,29 @@
 package quantity_measurement;
 
 public enum  UnitType {
-    FEET(12),
-    INCH(1),
-    YARD(36),
-    CM(1/2.54),
-    LITRES(1000),
-    GALLON(3785),
-    ML(1),
-    TONNE(1000000),
-    KILOGRAM(1000),
-    GRAM(1),
-    FARHANHIT(1),
-    CELCIUS(2.12);
-    public double val;
+    FEET(12,"LENGTH"),
+    INCH(1,"LENGTH"),
+    YARD(36,"LENGTH"),
+    CM(1/2.54,"LENGTH"),
+    LITRES(1000,"VOLUME"),
+    GALLON(3785,"VOLUME"),
+    ML(1,"VOLUME"),
+    TONNE(1000000,"WEIGHT"),
+    KILOGRAM(1000,"WEIGHT"),
+    GRAM(1,"WEIGHT"),
+    FARHANHIT(1,"TEMPERATURE"),
+    CELCIUS(2.12,"TEMPERATURE");
 
-    UnitType(double i) {
-        this.val=i;
+    public double val;
+    public String unitType;
+
+    UnitType(double val, String unittype) {
+        this.val = val;
+        this.unitType = unittype;
     }
 
-
-    public double getTypeValue(double value){
+    public double getLowestUnitValue(double value){
        double val1=this.val*value;
-        return val1;
+       return val1;
     }
 }
