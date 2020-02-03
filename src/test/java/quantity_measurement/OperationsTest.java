@@ -7,9 +7,9 @@ public class OperationsTest {
 
     @Test
     public void whenGivenTwoInch_shouldReturnFiveCentimeter() {
-        LengthConversion lengthConversion = new LengthConversion();
+        QuantityMeasurement quantityMeasurement = new QuantityMeasurement();
         double inchValue = UnitType.INCH.getLowestUnitValue(2.0);
-        double val = Math.round(lengthConversion.getConversion(inchValue, UnitType.CM));
+        double val = Math.round(quantityMeasurement.getLengthConversion(inchValue, UnitType.CM));
         Assert.assertEquals(5, val, 0);
     }
 
@@ -55,8 +55,8 @@ public class OperationsTest {
         double value = UnitType.GALLON.getLowestUnitValue(1.0);
         double value1 = UnitType.LITRES.getLowestUnitValue(3.785);
         double result = lengthMeasurement.getAddition(value, value1);
-        VolumeConversion volumeConversion = new VolumeConversion();
-        double litreResult = volumeConversion.getConversion(result, UnitType.LITRES);
+        QuantityMeasurement quantityMeasurement = new QuantityMeasurement();
+        double litreResult = quantityMeasurement.getVolumeConversion(result, UnitType.LITRES);
         Assert.assertEquals(7.57, litreResult, 0);
     }
 
@@ -66,8 +66,8 @@ public class OperationsTest {
         double value = UnitType.LITRES.getLowestUnitValue(1.0);
         double value1 = UnitType.ML.getLowestUnitValue(1000.0);
         double result = lengthMeasurement.getAddition(value, value1);
-        VolumeConversion volumeConversion = new VolumeConversion();
-        double litreResult = volumeConversion.getConversion(result, UnitType.LITRES);
+        QuantityMeasurement quantityMeasurement = new QuantityMeasurement();
+        double litreResult = quantityMeasurement.getVolumeConversion(result, UnitType.LITRES);
         Assert.assertEquals(2.0, litreResult, 0);
     }
 
@@ -77,8 +77,8 @@ public class OperationsTest {
         double value = UnitType.TONNE.getLowestUnitValue(1.0);
         double value1 = UnitType.GRAM.getLowestUnitValue(1000.0);
         double result = lengthMeasurement.getAddition(value, value1);
-        WeightConversion weightConversion = new WeightConversion();
-        double litreResult = weightConversion.getConversion(result, UnitType.KILOGRAM);
+        QuantityMeasurement quantityMeasurement = new QuantityMeasurement();
+        double litreResult = quantityMeasurement.getWeightConversion(result, UnitType.KILOGRAM);
         Assert.assertEquals(1001.0, litreResult, 0);
     }
 }

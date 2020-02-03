@@ -7,9 +7,9 @@ public class ValueConversionTest {
 
     @Test
     public void whenGivenOneFeetAndOneInch_shouldReturnEquals() {
-        LengthConversion lengthConversion = new LengthConversion();
-        double first = lengthConversion.getConversion(0.0, UnitType.FEET);
-        double second = lengthConversion.getConversion(0.0, UnitType.INCH);
+        QuantityMeasurement quantityMeasurement = new QuantityMeasurement();
+        double first = quantityMeasurement.getLengthConversion(0.0, UnitType.FEET);
+        double second = quantityMeasurement.getLengthConversion(0.0, UnitType.INCH);
         Assert.assertTrue(first == second);
     }
 
@@ -93,57 +93,57 @@ public class ValueConversionTest {
 
     @Test
     public void whenGivenOneFeetAndOneYard1_shouldReturnNotequals() {
-        LengthConversion lengthConversion = new LengthConversion();
+        QuantityMeasurement quantityMeasurement = new QuantityMeasurement();
         double inchValue = UnitType.FEET.getLowestUnitValue(1.0);
-        double val = lengthConversion.getConversion(inchValue, UnitType.YARD);
+        double val = quantityMeasurement.getLengthConversion(inchValue, UnitType.YARD);
         Assert.assertTrue(inchValue != val);
     }
 
     @Test
     public void whenGivenThreeFeet1_shouldReturnOneYard() {
-        LengthConversion lengthConversion = new LengthConversion();
+        QuantityMeasurement quantityMeasurement = new QuantityMeasurement();
         double inchValue = UnitType.FEET.getLowestUnitValue(3.0);
-        double val = lengthConversion.getConversion(inchValue,UnitType.YARD);
+        double val = quantityMeasurement.getLengthConversion(inchValue,UnitType.YARD);
         Assert.assertEquals(1, val, 0);
     }
 
     @Test
     public void whenGivenOneGallon_shouldReturnInLitres() {
-        VolumeConversion volumeConversion = new VolumeConversion();
+        QuantityMeasurement quantityMeasurement = new QuantityMeasurement();
         double inchValue = UnitType.GALLON.getLowestUnitValue(1.0);
-        double val = volumeConversion.getConversion(inchValue, UnitType.LITRES);
+        double val = quantityMeasurement.getVolumeConversion(inchValue, UnitType.LITRES);
         Assert.assertEquals(3.785, val, 0);
     }
 
     @Test
     public void whenGivenOneLitre_shouldReturnInMililitres() {
-        VolumeConversion volumeConversion = new VolumeConversion();
+        QuantityMeasurement quantityMeasurement = new QuantityMeasurement();
         double value1 = UnitType.LITRES.getLowestUnitValue(1.0);
-        double value2 = volumeConversion.getConversion(value1, UnitType.ML);
+        double value2 = quantityMeasurement.getVolumeConversion(value1, UnitType.ML);
         Assert.assertEquals(1000.0, value2, 0);
     }
 
     @Test
     public void whenGivenOneKg_shouldReturnThousandGrams() {
-        WeightConversion weightConversion = new WeightConversion();
+        QuantityMeasurement quantityMeasurement = new QuantityMeasurement();
         double value1 = UnitType.KILOGRAM.getLowestUnitValue(1.0);
-        double value2 = weightConversion.getConversion(value1, UnitType.GRAM);
+        double value2 = quantityMeasurement.getWeightConversion(value1, UnitType.GRAM);
         Assert.assertEquals(1000.0, value2, 0);
     }
 
     @Test
     public void whenGivenOneTonee_shouldReturnThousandKgs() {
-        WeightConversion weightConversion = new WeightConversion();
+        QuantityMeasurement quantityMeasurement = new QuantityMeasurement();
         double value1 = UnitType.TONNE.getLowestUnitValue(1.0);
-        double value2 = weightConversion.getConversion(value1, UnitType.KILOGRAM);
+        double value2 = quantityMeasurement.getWeightConversion(value1, UnitType.KILOGRAM);
         Assert.assertEquals(1000.0, value2, 0);
     }
 
     @Test
     public void whenGivenFahrenheit_shouldReturnCelcius() {
-        TemperarureConversion temperarureConversion = new TemperarureConversion();
+        QuantityMeasurement quantityMeasurement = new QuantityMeasurement();
         double value1 = UnitType.FARHANHIT.getLowestUnitValue(212.0);
-        double value2 = temperarureConversion.getConversion(value1,UnitType.CELCIUS);
+        double value2 = quantityMeasurement.getTemperatureConversion(value1,UnitType.CELCIUS);
         Assert.assertEquals(100, value2, 0);
     }
 }
